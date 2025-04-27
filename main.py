@@ -1,7 +1,10 @@
 import random
 
+def wer(a, b):
+    c = random.randint(a,b)
+    return
+
 a = int(input('Введите число'))
 b = int(input('Введите число'))
-c = random.randint(a,b)
-
-print(c)
+res = wer(a,b)
+print('Ваше число', res)
